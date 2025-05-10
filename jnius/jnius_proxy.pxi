@@ -108,7 +108,7 @@ cdef jobject py_invoke0(JNIEnv *j_env, jobject j_this, jobject j_proxy, jobject
         'C': 'Ljava/lang/Character;',
         'S': 'Ljava/lang/Short;',
         'I': 'Ljava/lang/Integer;',
-        'J': 'Ljava/lang/Long;',
+        'J': 'Ljava/lang/Integer;',
         'F': 'Ljava/lang/Float;',
         'D': 'Ljava/lang/Double;'}
 
