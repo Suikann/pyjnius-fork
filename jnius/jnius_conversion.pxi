@@ -379,7 +379,7 @@ def get_signature(cls_tp):
     signatures = {
         'void': 'V', 'boolean': 'Z', 'byte': 'B',
         'char': 'C', 'short': 'S', 'int': 'I',
-        'long': 'J', 'float': 'F', 'double': 'D'}
+        'int': 'J', 'float': 'F', 'double': 'D'}
     ret = signatures.get(tp)
     if ret:
         return ret
